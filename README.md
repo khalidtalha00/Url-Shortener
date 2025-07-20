@@ -15,36 +15,27 @@ $  pip install virtualenv
 
 Create Virtual Environment
 
-For Windows
 ```
 $  python -m venv venv
-```
-For Mac
-```
-$  python3 -m venv venv
 ```
 
 Activate Virtual Environment
 
-For Windows
 ```
 $  source venv/scripts/activate
 ```
 
-For Mac
-```
-$  source venv/bin/activate
-```
+
 
 **3. Clone this project**
 
 ```
-$  git clone 
+$  git clone https://github.com/khalidtalha00/Url-Shortener.git
 ```
 
 Then, Enter the project
 ```
-$  cd URL-Shortener
+$  cd url_shortener
 ```
 
 **4. Install Requirements from 'requirements.txt'**
@@ -59,7 +50,3 @@ Command for Windows:
 $ python manage.py runserver
 ```
 
-Command for Linux or Mac:
-```python
-$ python3 manage.py runserver
-```
